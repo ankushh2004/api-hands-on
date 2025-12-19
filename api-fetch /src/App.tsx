@@ -1,5 +1,7 @@
 // import { useEffect } from "react";
 
+import Axios from "./Axios";
+
 function App() {
   // ------------- Sending data in GET request ---------------
   // const params = new URLSearchParams();
@@ -118,6 +120,7 @@ function App() {
     <>
       <div>Hello Jeee</div>
       {/* <button onClick={getData}>Fetch</button> */}
+      <Axios />
     </>
   );
 }
